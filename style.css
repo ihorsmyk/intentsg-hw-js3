@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Marck+Script&family=Neucha&family=Ubuntu+Condensed&display=swap");
+
+body {
+  background-color: floralwhite;
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Marck Script", cursive;
+  font-family: "Neucha", cursive;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.sets {
+  margin: 15px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.content {
+  font-family: "JetBrains Mono", monospace;
+  font-family: "Marck Script", cursive;
+  font-family: "Neucha", cursive;
+  font-family: "Ubuntu Condensed", sans-serif;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.pLinks {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+}

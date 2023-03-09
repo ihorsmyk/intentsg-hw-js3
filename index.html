@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My page</title>
+  </head>
+  <body>
+    <div class="sets">
+      <fieldset class="selectBackgroundColor">
+        <legend>Select background color:</legend>
+        <input
+          type="radio"
+          id="aqua"
+          name="backgroundColor"
+          value="aqua"
+          checked
+        />
+        <label for="aqua">aqua</label> <br />
+
+        <input
+          type="radio"
+          id="lightgreen"
+          name="backgroundColor"
+          value="lightgreen"
+        />
+        <label for="lightgreen">light green</label> <br />
+
+        <input type="radio" id="gold" name="backgroundColor" value="gold" />
+        <label for="gold">gold</label>
+      </fieldset>
+
+      <fieldset class="selectFontFamily">
+        <legend>Select font family:</legend>
+        <input
+          type="radio"
+          id="JetBrains Mono"
+          name="fontFamily"
+          value="JetBrains Mono"
+          checked
+        />
+        <label for="JetBrains Mono">JetBrains Mono</label> <br />
+
+        <input
+          type="radio"
+          id="Marck Script"
+          name="fontFamily"
+          value="Marck Script"
+        />
+        <label for="Marck Script">Marck Script</label> <br />
+
+        <input type="radio" id="Neucha" name="fontFamily" value="Neucha" />
+        <label for="Neucha">Neucha</label> <br />
+
+        <input
+          type="radio"
+          id="Ubuntu Condensed"
+          name="fontFamily"
+          value="Ubuntu Condensed"
+        />
+        <label for="Ubuntu Condensed">Ubuntu Condensed</label>
+      </fieldset>
+
+      <fieldset class="selectAlignTitle">
+        <legend>Align title:</legend>
+        <input type="radio" id="left" name="alignTitle" value="left" checked />
+        <label for="left">left</label> <br />
+
+        <input type="radio" id="center" name="alignTitle" value="center" />
+        <label for="center">center</label> <br />
+
+        <input type="radio" id="right" name="alignTitle" value="right" />
+        <label for="right">right</label>
+      </fieldset>
+
+      <fieldset class="selectPLinksBackgroundColor">
+        <legend>Select background color for links:</legend>
+        <input
+          type="radio"
+          id="aqua"
+          name="pLinksBackgroundColor"
+          value="aqua"
+          checked
+        />
+        <label for="aqua">aqua</label> <br />
+
+        <input
+          type="radio"
+          id="lightgreen"
+          name="pLinksBackgroundColor"
+          value="lightgreen"
+        />
+        <label for="lightgreen">light green</label> <br />
+
+        <input
+          type="radio"
+          id="gold"
+          name="pLinksBackgroundColor"
+          value="gold"
+        />
+        <label for="gold">gold</label>
+      </fieldset>
+
+      <fieldset class="selectPLinksColor">
+        <legend>Select text color for links area:</legend>
+        <input
+          type="radio"
+          id="black"
+          name="pLinksColor"
+          value="black"
+          checked
+        />
+        <label for="black">black</label> <br />
+
+        <input type="radio" id="darkblue" name="pLinksColor" value="darkblue" />
+        <label for="darkblue">dark blue</label> <br />
+
+        <input type="radio" id="brown" name="pLinksColor" value="brown" />
+        <label for="brown">brown</label>
+      </fieldset>
+
+      <fieldset class="selectLinksColor">
+        <legend>Select text color for links:</legend>
+        <input type="radio" id="red" name="linksColor" value="red" checked />
+        <label for="red">red</label> <br />
+
+        <input type="radio" id="darkblue" name="linksColor" value="darkblue" />
+        <label for="darkblue">dark blue</label> <br />
+
+        <input type="radio" id="brown" name="linksColor" value="brown" />
+        <label for="brown">brown</label>
+      </fieldset>
+
+      <fieldset class="selectDivColor">
+        <legend>Select text color for div:</legend>
+        <input type="radio" id="red" name="divColor" value="red" checked />
+        <label for="red">red</label> <br />
+
+        <input type="radio" id="darkblue" name="divColor" value="darkblue" />
+        <label for="darkblue">dark blue</label> <br />
+
+        <input type="radio" id="brown" name="divColor" value="brown" />
+        <label for="brown">brown</label>
+      </fieldset>
+
+      <fieldset class="selectDivFontSize">
+        <legend>Select div font size:</legend>
+        <input type="range" min="15" max="25" />
+      </fieldset>
+
+      <fieldset class="selectDivFontWeight">
+        <legend>Select div font weight:</legend>
+        <input type="range" min="5" max="6" />
+      </fieldset>
+
+      <fieldset class="selectListStyleMarker">
+        <legend>Select ul marker:</legend>
+        <input
+          type="radio"
+          id="disc"
+          name="listStyleMarker"
+          value="disc"
+          checked
+        />
+        <label for="disc">disc</label> <br />
+
+        <input type="radio" id="circle" name="listStyleMarker" value="circle" />
+        <label for="circle">circle</label> <br />
+
+        <input
+          type="radio"
+          id="decimal"
+          name="listStyleMarker"
+          value="decimal"
+        />
+        <label for="decimal">decimal</label> <br />
+
+        <input
+          type="radio"
+          id="lower-greek"
+          name="listStyleMarker"
+          value="lower-greek"
+        />
+        <label for="lower-greek">lower greek</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Enter favorite pages:</legend>
+        <label for="1">1: </label>
+        <input
+          class="enterFavoritePages"
+          type="text"
+          id="1"
+          name="favoritePages"
+        /><br />
+        <label for="2">2: </label>
+        <input
+          class="enterFavoritePages"
+          type="text"
+          id="2"
+          name="favoritePages"
+        /><br />
+        <label for="3">3: </label>
+        <input
+          class="enterFavoritePages"
+          type="text"
+          id="3"
+          name="favoritePages"
+        /><br />
+      </fieldset>
+    </div>
+
+    <div class="content">
+      <h1 class="mainTitle">My page</h1>
+      <p class="pLinks">
+        Favorite pages:
+        <a class="links" target="_blank" href="">1 link</a>
+        <a class="links" target="_blank" href="">2 link</a>
+        <a class="links" target="_blank" href="">3 link</a>
+      </p>
+
+      <div class="div">
+        За допомогою JavaScript запропонувати користувачу вибрати стиль для
+        сторінки. А саме:
+        <ul class="ul">
+          <li>фон для сторінки</li>
+          <li>тип шрифта на сторінці</li>
+          <li>вирівнювання для заголовка h1</li>
+          <li>фон для параграфа зі зсилками</li>
+          <li>
+            колір тексту у параграфі зі зсилками і для самих зсилок. При чому
+            колір тексту для зсилок призначити у циклі
+          </li>
+          <li>колір, розмір, товщину тексту у елементі div</li>
+          <li>тип маркера для маркованого списку на сторінці</li>
+        </ul>
+        Таким чином слід запропонувати користувачу ввести десять налаштувань
+        сторінки і застосувати їх.<br />
+        ДОДАТОК ДО ЗАВДАННЯ: замість зсилок на конкретні сайти, вивести у панелі
+        навігації силки на три сайти, які вкаже користувач. <br />
+        Наприклад користувач у prompt ввів адресу facebook.com - в такому разі
+        треба створити силку, яка вела б на сайт facebook, а текстом цієї зсилки
+        (тим, по чому можна клікнути) буде також facebook.com
+      </div>
+    </div>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
